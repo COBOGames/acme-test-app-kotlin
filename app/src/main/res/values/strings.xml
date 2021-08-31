@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">ACME_</string>
+
+    <!-- ACTIVITY TITLES -->
+    <string name="activity_title_login">ACME | Login</string>
+    <string name="activity_title_main">ACME | Dashboard</string>
+    <string name="activity_title_maps">Get directions</string>
+
+    <!-- ACTIONS -->
+    <string name="action_new_ticket">Add new ticket</string>
+    <string name="action_work_ticket">Work ticket</string>
+    <string name="action_get_directions">Get directions</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_save">Save</string>
+    <string name="action_sync_calendar">Sync calendar</string>
+
+    <!-- LOGIN ACTIVITY -->
+    <string name="login_hint_username">Username</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_start_btn">Start</string>
+
+    <!-- ERROR MESSAGES -->
+    <string name="error_msg_can_not_be_empty">Can not be empty</string>
+    <string name="error_msg_wrong_username_or_pass">Wrong username or password</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="main_tickets_empty">You have no tickets</string>
+    <string name="main_add_ticket_to_see_it">Once you create a new one you\'ll see it here</string>
+
+    <!-- WORK TICKET ACTIVITY -->
+    <string name="work_ticked_edit_title">Edit ticked</string>
+    <string name="hint_client_name">Client name*</string>
+    <string name="hint_address">Address*</string>
+    <string name="hint_schedule_date">Schedule date*</string>
+    <string name="hint_phone">Phone number</string>
+    <string name="hint_reason_for_call">Reason for call</string>
+    <string name="overview">Overview</string>
+    <string name="purchasing">Purchasing</string>
+    <string name="finishing_up">Finishing up</string>
+    <string name="msg_ticket_added">Ticket added successful</string>
+    <string name="msg_ticket_edited">Ticket edited successful</string>
+
+    <string name="confirm_dialog_default_title">Confirmation</string>
+    <string name="confirm_delete_this_ticket">Are you sure to delete this ticket?</string>
+    <string name="enter_address">Enter address</string>
+    <string name="confirm_sync_calendar">Are you sure to sync the calendar?</string>
+
+</resources>

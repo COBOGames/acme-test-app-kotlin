@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:background="?selectableItemBackground"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/tv_schedule_date"
+        android:layout_width="60dp"
+        android:layout_height="42dp"
+        android:background="@color/ticket_normal"
+        android:layout_marginRight="8dp"
+        tools:text="22/05/2021"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_client_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/tv_schedule_date"
+        android:layout_toRightOf="@+id/tv_schedule_date"
+        android:layout_toLeftOf="@+id/btn_options"
+        android:layout_toStartOf="@+id/btn_options"
+        android:ellipsize="end"
+        android:singleLine="true"
+        tools:text="Client name"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/tv_schedule_date"
+        android:layout_toRightOf="@+id/tv_schedule_date"
+        android:layout_toLeftOf="@+id/btn_options"
+        android:layout_toStartOf="@+id/btn_options"
+        tools:text="Address"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_below="@id/tv_client_name" />
+
+    <ImageView
+        android:id="@+id/btn_options"
+        style="@style/Widget.AppCompat.Toolbar.Button.Navigation"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_more_vert_24"
+        android:layout_alignParentRight="true"
+        android:clickable="true"/>
+
+</RelativeLayout>
